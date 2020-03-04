@@ -4,10 +4,10 @@ function random(number) {
     return Math.floor(Math.random() * (number+1));
   }
 
-function bgChange(e) {
+function buttonChange(e) {
     const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-    e.target.style.backgroundColor = rndCol;
+    e.target.style.buttonColor = rndCol;
     console.log(e);
   }  
   
-  btn.addEventListener('click', bgChange);
+  btn.addEventListener('click', buttonChange);
