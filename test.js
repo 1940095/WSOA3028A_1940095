@@ -1,5 +1,4 @@
 let btnColor = document.querySelector('#color');
-
 let btnColor2 = document.querySelector('#color2');
 
 function random(number) {
