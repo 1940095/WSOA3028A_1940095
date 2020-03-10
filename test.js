@@ -7,7 +7,7 @@ function random(number) {
     return Math.floor(Math.random() * (number+1));
   } 
   
-  btnColor.addEventListener('click', ()=> btnColor.style.backgroundColor='rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')');
+  btnColor.addEventListener('click', ()=> console.log("Color!"), btnColor.style.backgroundColor='rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')');
   btnColor2.addEventListener('click', ()=> btnColor2.style.backgroundColor='rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')');
-  btn3.addEventListener('click', ()=> console.log("Alert!"), alert("do something"));
-  btn4.addEventListener('click', ()=> console.log("About!"), location.href = "/WSOA3028A_1940095/about");
+ // btn3.addEventListener('click', ()=> console.log("Alert!"), alert("do something"));
+ // btn4.addEventListener('click', ()=> console.log("About!"), location.href = "/WSOA3028A_1940095/about");
