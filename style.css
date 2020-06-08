@@ -55,6 +55,17 @@ nav{
     transition: all 0.3s ease;
 }
 
+.header{
+    margin: 20px 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(220, 220, 220);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20;
+    text-decoration: none;
+    list-style: none;
+}
+
 .banner{
     width: 100%;
     height: calc(50vh - 100px);
@@ -74,6 +85,58 @@ nav{
     text-shadow: 2px 2px 1px #111;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+.textbox1{
+    margin: 20px 20px 0px;
+    width: calc(100% - 32px);
+    height: 300px;
+    background-color: #2b2d2f;
+}
+
+.textbox1 p{
+    margin: 20px 20px 0px;
+    color: rgb(220, 220, 220);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textbox2{
+    margin: 20px 20px 0px;
+    width: calc(100% - 32px);
+    height: 600px;
+    background-color: #2b2d2f;
+}
+
+.textbox2 p{
+    margin: 20px 20px 0px;
+    color: rgb(220, 220, 220);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textbox3{
+    margin: 20px 20px 0px;
+    width: calc(100% - 32px);
+    height: 900px;
+    background-color: #2b2d2f;
+}
+
+.textbox3 p{
+    margin: 20px 20px 0px;
+    color: rgb(220, 220, 220);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textbox4{
+    margin: 20px 20px 0px;
+    width: calc(100% - 32px);
+    height: 1200px;
+    background-color: #2b2d2f;
+}
+
+.textbox4 p{
+    margin: 20px 20px 0px;
+    color: rgb(220, 220, 220);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .boxlink{
